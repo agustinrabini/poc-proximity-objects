@@ -1,13 +1,176 @@
 package domain
 
 type Shop struct {
-	ID        int     `json:"id"`
-	UID       string  `json:"uid"`
-	Name      string  `json:"name"`
-	Direction string  `json:"dir"`
-	Commune   string  `json:"com"`
-	latitude  float64 `json:"lat"`
-	longitude float64 `json:"lng"`
+	Shop_id int     `json:"shop_id"`
+	Commune int     `json:"commune"`
+	Lat     float64 `json:"lat"`
+	Lng     float64 `json:"lng"`
 }
 
 type Shops []Shop
+
+/* var Sps = Shops{
+	{
+		ID:        1,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   12,
+		Latitude:  -34.5819241,
+		Longitude: -58.4882649,
+	},
+	{
+		ID:        2,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   9,
+		Latitude:  -34.5952702,
+		Longitude: -58.4935569,
+	}, {
+		ID:        3,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   15,
+		Latitude:  -34.6118465,
+		Longitude: -58.4386441,
+	}, {
+		ID:        4,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   9,
+		Latitude:  -34.6156392,
+		Longitude: -58.4831017,
+	}, {
+		ID:        5,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   6,
+		Latitude:  -34.6122212,
+		Longitude: -58.4420737,
+	}, {
+		ID:        6,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   8,
+		Latitude:  -34.6690335,
+		Longitude: -58.4816031,
+	}, {
+		ID:        7,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   7,
+		Latitude:  -34.6368436,
+		Longitude: -58.4243582,
+	}, {
+		ID:        8,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   3,
+		Latitude:  -34.604978,
+		Longitude: -58.393633,
+	}, {
+		ID:        9,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   7,
+		Latitude:  -34.6428866,
+		Longitude: -58.4549306,
+	}, {
+		ID:        10,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   14,
+		Latitude:  -34.5776266,
+		Longitude: -58.4332556,
+	}, {
+		ID:        11,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   4,
+		Latitude:  -34.6304914,
+		Longitude: -58.3979309,
+	}, {
+		ID:        12,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   9,
+		Latitude:  -34.6466522,
+		Longitude: -58.5060786,
+	}, {
+		ID:        13,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   10,
+		Latitude:  -34.6231697,
+		Longitude: -58.5087313,
+	}, {
+		ID:        14,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   15,
+		Latitude:  -34.5867711,
+		Longitude: -58.4803672,
+	}, {
+		ID:        15,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   15,
+		Latitude:  -34.5894628,
+		Longitude: -58.4807824,
+	}, {
+		ID:        16,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   6,
+		Latitude:  -34.622949,
+		Longitude: -58.4277701,
+	}, {
+		ID:        17,
+		UID:       "asdasdgg",
+		Name:      "nn",
+		Direction: "ddsdsd",
+		Commune:   12,
+		Latitude:  -34.5871371,
+		Longitude: -58.4925608,
+	}, {
+		ID:        18,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   15,
+		Latitude:  -34.6028389,
+		Longitude: -58.468082,
+	}, {
+		ID:        19,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   5,
+		Latitude:  -34.6133734,
+		Longitude: -58.4233107,
+	}, {
+		ID:        20,
+		UID:       "asdasdgg",
+		Name:      "Lo de Marta",
+		Direction: "ddsdsd",
+		Commune:   7,
+		Latitude:  -34.6138902,
+		Longitude: -58.4595799,
+	},
+}
+*/
